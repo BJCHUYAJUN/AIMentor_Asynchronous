@@ -9,9 +9,11 @@ local OllamaNPC = {}
 local dkjson = require("dkjson")
 
 -- 核心配置（优化性能参数）
-OllamaNPC.OLLAMA_BASE_URL = "http://192.168.2.246:11434"
+-- 配置IP地址和端口号
+OllamaNPC.OLLAMA_BASE_URL = "http://IP地址:端口号"
 OllamaNPC.COMMAND_PREFIX = "@mentor"
 OllamaNPC.MAX_HISTORY = 10
+--配置模型
 OllamaNPC.DEFAULT_MODEL = "deepseek-r1:14b"
 OllamaNPC.ConversationHistory = {}
 OllamaNPC.RECV_TIMEOUT = 120  -- 适当缩短超时（避免不必要等待）
