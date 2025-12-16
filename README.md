@@ -4,8 +4,8 @@
 功能演示：
 安装与配置：
 
-安装：说明将 AIMentor_Asynchronous 文件夹复制到 Azerothcore的bin/luajit/Interface/AddOns/ 目录下。
-配置：指导用户如何修改 Config.lua 以指向其本地OLLAMA服务端点。
+安装：说明将 AIMentor_Asynchronous 文件夹复制到 Azerothcore的bin/lua_scripts目录下。
+配置：
 前置依赖：明确告知用户需要提前安装并运行OLLAMA，并可能需要LuaJIT或特定的LuaSocket库（如果你的实现涉及网络通信）。
 
 使用方法：详细说明游戏内命令（如 @mentor 或你设定的命令）以及如何开始和进行多轮对话。
